@@ -37,6 +37,23 @@
         color: #333;
         line-height: 1.6;
     }
+    .search-form {
+        margin-top: 20px;
+    }
+    .search-input {
+        padding: 8px;
+        width: 60%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search-button {
+        padding: 8px 16px;
+        background: #ff87a2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 </style>
 </head>
 <body>
@@ -55,6 +72,11 @@
         <h2>联系方式</h2>
         <p>WeChat：ayzat1124</p>
         <p>电话：17794955698</p>
+        
+        <form class="search-form" action="https://www.bing.com/search" method="GET" target="_blank">
+            <input class="search-input" type="text" name="q" placeholder="在这里输入搜索内容">
+            <button class="search-button" type="submit">使用必应搜索</button>
+        </form>
     </div>
 </body>
 </html>
