@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>艾依扎提的个人页面</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        color: #666;
+        line-height: 1.6;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>艾依扎提的个人页面</h1>
+        <p>学校：西北民族大学</p>
+        <p>入学年份：2021级</p>
+        <p>专业班级：新闻学2班</p>
+        
+        <h2>个人简介</h2>
+        <p>你可以在这里添加你的个人简介内容。</p>
+        
+        <h2>兴趣爱好</h2>
+        <p>你可以在这里列出你的兴趣爱好。</p>
+        
+        <h2>联系方式</h2>
+        <p>邮箱：example@example.com</p>
+        <p>电话：123-456-7890</p>
+    </div>
+</body>
+</html>
